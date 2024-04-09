@@ -1,0 +1,40 @@
+.svg:hover path {
+  stroke: #fff;
+  animation: shake 1s;
+}
+
+@keyframes shake {
+  0% {
+    rotate: 2deg;
+  } 
+  10%{
+    rotate: -2deg;
+  } 
+  20% {
+    rotate: 2deg;
+  }
+  30% {
+    rotate: -2deg;
+  }
+  40% {
+    rotate: 2deg;
+  }
+  20% {
+    rotate: -2deg;
+  }
+  60% {
+    rotate: 2deg;
+  }
+  70% {
+    rotate: -2deg;
+  }
+  80% {
+    rotate: 2deg;
+  }
+  90% {
+    rotate: -2deg;
+  }
+  100% {
+    rotate: 0deg;
+  }
+}

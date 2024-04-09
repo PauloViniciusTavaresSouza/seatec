@@ -1,0 +1,31 @@
+.containerPrincipal {
+  background-color: #4BAE32;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  cursor: pointer;
+  animation: aparecerComponent 1s;
+}
+
+.containerPrincipal:hover {
+  width: 52px;
+  height: 52px;
+  bottom: 49px;
+  right: 49px;
+}
+
+
+@keyframes aparecerComponent {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,52 @@
+.containerPrincipal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  flex-direction: column;
+  margin-top: 10vh;
+
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  width: 100%;
+  gap: 50px;
+}
+
+.containerInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.containerInfo h1 {
+  font-size: 100px;
+}
+
+.containerInfo p {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.containerInfo a {
+  background-color: #FFC727;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px #ccc;
+  color: #000;
+  font-size: 16px;
+  padding: 20px 40px;
+  text-transform: uppercase;
+}
+
+.containerInfo a:hover {
+  background-color: #fff;
+  border: 2px solid #FFC727;
+  color: #FFC727;
+  padding: 18px 38px;
+}
