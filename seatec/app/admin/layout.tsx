@@ -52,8 +52,8 @@ export default function RootLayout({ children }: Props) {
                   {dropSideBar ? (
                     <Image
                       src={'/homeIcon.png'}
-                      width={30}
-                      height={30}
+                      width={35}
+                      height={35}
                       alt="imagem Icon Home"
                     />
                   ) : (
@@ -66,8 +66,8 @@ export default function RootLayout({ children }: Props) {
                   {dropSideBar ? (
                     <Image
                       src={'/homeIcon.png'}
-                      width={30}
-                      height={30}
+                      width={35}
+                      height={35}
                       alt="imagem Icon Home"
                     />
                   ) : (
@@ -79,9 +79,9 @@ export default function RootLayout({ children }: Props) {
                 <li>
                   {dropSideBar ? (
                     <Image
-                      src={'/homeIcon.png'}
-                      width={30}
-                      height={30}
+                      src={'/Icone3.png'}
+                      width={35}
+                      height={35}
                       alt="imagem Icon Home"
                     />
                   ) : (
@@ -93,9 +93,9 @@ export default function RootLayout({ children }: Props) {
                 <li>
                   {dropSideBar ? (
                     <Image
-                      src={'/homeIcon.png'}
-                      width={30}
-                      height={30}
+                      src={'/Icone4.png'}
+                      width={35}
+                      height={35}
                       alt="imagem Icon Home"
                     />
                   ) : (
@@ -107,9 +107,9 @@ export default function RootLayout({ children }: Props) {
                 <li>
                   {dropSideBar ? (
                     <Image
-                      src={'/homeIcon.png'}
-                      width={30}
-                      height={30}
+                      src={'/Icone5.png'}
+                      width={35}
+                      height={35}
                       alt="imagem Icon Home"
                     />
                   ) : (
@@ -121,9 +121,9 @@ export default function RootLayout({ children }: Props) {
                 <li>
                   {dropSideBar ? (
                     <Image
-                      src={'/homeIcon.png'}
-                      width={30}
-                      height={30}
+                      src={'/Icone6.png'}
+                      width={35}
+                      height={35}
                       alt="imagem Icon Home"
                     />
                   ) : (

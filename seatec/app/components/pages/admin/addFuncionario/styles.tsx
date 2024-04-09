@@ -26,6 +26,10 @@ export const ContainerUserAdd = styled.div`
   padding: 20px;
   margin: 20px;
   gap: 20px;
+
+  @media (max-width: 1085px) {
+    flex-direction: column;
+  }
 `;
 
 export const FuncionarioBio_DIV = styled.div`
@@ -40,6 +44,10 @@ export const FuncionarioBio_DIV = styled.div`
   border-radius: 10px;
   width: 40%;
 
+  @media (max-width: 1085px) {
+    width: 100%;
+  }
+
   span {
     font-size: 16px;
     color: #959595;
@@ -53,6 +61,10 @@ export const ContainerAdd_Funcionario_DIV = styled.div`
   align-items: center;
   max-width: 60%;
   width: 100%;
+
+  @media (max-width: 1085px) {
+    max-width: 100%;
+  }
 `;
 
 export const Add_Funcionario_DIV = styled.div<{
@@ -71,6 +83,10 @@ export const Add_Funcionario_DIV = styled.div<{
   padding: 0 0 20px 0;
   background-color: #fff;
   border-radius: 10px;
+
+  @media (max-width: 1085px) {
+    max-width: 100%;
+  }
 
   h2 {
     font-size: 28px;
